@@ -1,0 +1,25 @@
+// Fazer um programa para executar a seguinte interação com o usuário, lendo os valores e depois mostrar os dados na tela.
+// ** Entre com o seu nome completo:
+// ** Quantos quartos tem na sua casa ?
+// ** Entre com o preço de um produto:
+// ** Entre seu ultimo nome, idade e altura:
+
+using System;
+using System.Globalization;
+
+namespace Entradadedados01 {
+          class Program {
+              Static Void Main(straing[] args) {
+              
+              string nome = string.Parse(Console.Readline());
+              int quarto = int.Parse(Concolse.Readline());
+              double preco = double.Parse(Console.Readline());
+              
+              string[] vet = Console.Readline().Split(' ');
+              string ultimo = string.Parse(vet[0]);
+              int idade = int.Parse(vet[1]);
+              double altura = double.Parse(vet[2]);
+              
+            }
+      }
+}
